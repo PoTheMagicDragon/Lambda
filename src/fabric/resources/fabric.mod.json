@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "lambda",
+    "version": "${version}",
+    "name": "Lambda",
+    "description": "Kotlin utility mod for the anarchy experience",
+    "authors": [
+        "Constructor"
+    ],
+    "contributors": [],
+    "contact": {
+        "homepage": "https://github.com/lambda-client/lambda-fabric",
+        "issues": "https://github.com/lambda-client/lambda-fabric/issues",
+        "sources": "https://github.com/lambda-client/lambda-fabric"
+    },
+    "license": "GNU General Public License v3.0 (GPLv3)",
+    "icon": "assets/lambda/logo.png",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "com.lambda.fabric.FabricLambdaMod"
+        ]
+    },
+    "mixins": [
+        "lambda.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.22",
+        "minecraft": "1.19.4"
+    }
+}

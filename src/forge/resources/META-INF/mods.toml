@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[41,)"
+#issueTrackerURL = ""
+license = "GNU General Public License v3.0 (GPLv3)"
+
+[[mods]]
+modId = "lambda"
+version = "${version}"
+displayName = "Lambda"
+authors = "Constructor"
+description = '''
+Kotlin utility mod for the anarchy experience
+'''
+#logoFile = ""
+
+[[dependencies.lambda]]
+modId = "forge"
+mandatory = true
+versionRange = "[41,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.lambda]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.4,)"
+ordering = "NONE"
+side = "CLIENT"
